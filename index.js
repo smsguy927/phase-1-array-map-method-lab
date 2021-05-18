@@ -12,7 +12,7 @@ const tutorials = [
 ];
 
 function toTitleCase(words) {
-  let wordsArr = words.split(' ');
+  let wordsArr = words.split(" ");
   wordsArr = wordsArr.map(str => str[0].toUpperCase() + str.slice(1));
   return wordsArr.join(' ');
 }
